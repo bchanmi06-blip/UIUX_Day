@@ -1,0 +1,71 @@
+header {
+    height: 86px;
+    background-color: #fff;
+    /* 가로로 눕힐게 */
+    display: flex;
+    /* 양끝맞춤할게 */
+    justify-content: space-between;
+    /* 세로 중앙정렬할게 */
+    align-items: center
+}
+
+nav {
+    background-color: #ffffff;
+    display: flex;
+    gap: 24px;
+
+}
+
+.nav-box01 {
+    width: 92px;
+    height: 12px;
+    border-radius: 2px;
+    background-color: #cfcfcf;
+}
+
+.nav-box02 {
+    width: 112px;
+    height: 12px;
+    border-radius: 2px;
+    background-color: #cfcfcf;
+}
+
+.nav-box03 {
+    width: 148px;
+    height: 12px;
+    border-radius: 2px;
+    background-color: #cfcfcf;
+}
+
+.nav-box04 {
+    width: 72px;
+    height: 12px;
+    border-radius: 2px;
+    background-color: #cfcfcf;
+}
+
+.nav-box05 {
+    width: 88px;
+    height: 12px;
+    border-radius: 2px;
+    background-color: #cfcfcf;
+}
+
+h1 {
+    background-color: #A8A8A8;
+}
+
+.use-box {
+    background-color: #ffffff;
+}
+
+
+main {
+    height: 400vh;
+    background-color: #e1e1e1;
+}
+
+footer {
+    height: 68px;
+    background-color: #ffffff;
+}
