@@ -1,0 +1,168 @@
+header {
+    height: 86px;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center
+}
+
+.nav-left {
+    background-color: #ffffff;
+    display: flex;
+    gap: 28px;
+}
+
+.nav-box01 {
+    width: 92px;
+    height: 12px;
+    border-radius: 2px;
+    background-color: #cfcfcf;
+}
+
+.nav-box02 {
+    width: 112px;
+    height: 12px;
+    border-radius: 2px;
+    background-color: #cfcfcf;
+}
+
+.nav-box03 {
+    width: 148px;
+    height: 12px;
+    border-radius: 2px;
+    background-color: #cfcfcf;
+}
+
+.nav-box04 {
+    width: 72px;
+    height: 12px;
+    border-radius: 2px;
+    background-color: #cfcfcf;
+}
+
+.nav-box05 {
+    width: 88px;
+    height: 12px;
+    border-radius: 2px;
+    background-color: #cfcfcf;
+}
+
+h1 {
+    border-radius: 2px;
+    background: #A8A8A8;
+    width: 228px;
+    height: 25px;
+}
+
+div {
+    display: flex;
+    gap: 32px;
+}
+
+.div-box01 {
+    width: 68px;
+    height: 12px;
+    border-radius: 2px;
+    background: #CFCFCF;
+}
+
+.div-box02 {
+    width: 92px;
+    height: 12px;
+    border-radius: 2px;
+    background: #CFCFCF;
+}
+
+.div-box03 {
+    width: 58px;
+    height: 12px;
+    border-radius: 2px;
+    background: #CFCFCF;
+}
+
+.div-box04 {
+    width: 84px;
+    height: 12px;
+    border-radius: 2px;
+    background: #CFCFCF;
+}
+
+.div-box05 {
+    width: 36px;
+    height: 12px;
+    border-radius: 2px;
+    background: #CFCFCF;
+}
+
+header {
+    border-bottom: 2px solid #e3e3e3;
+    height: 86px;
+}
+
+main {
+    border-bottom: 2px dashed #e3e3e3;
+    height: 2526px;
+    padding: 64px;
+}
+
+
+.sct-01,
+.sct-02,
+.sct-03,
+.sct-04 {
+    background-color: #d2d2d2;
+    border-bottom: 1px solid #000;
+}
+
+.sct-01 {
+    display: flex;
+    gap: 20px;
+}
+
+.sct01-left {
+    width: 1100px;
+    height: 610px;
+    background-color: yellow;
+}
+
+.sct01-right {
+    background-color: green;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.sct01-rbox01 {
+    background-color: aqua;
+    flex-grow: 1;
+
+}
+
+.sct01-rbox02 {
+    background-color: rgb(0, 124, 124);
+    flex-grow: 1;
+
+}
+
+.sct-02 {
+    display: flex;
+    gap: 20px;
+}
+
+.sct02-left {
+    width: 878px;
+    height: 500px;
+    background: rgba(232, 232, 232, 0.78);
+}
+
+.sct02-right {
+    width: 878px;
+    height: 500px;
+    background: rgba(232, 232, 232, 0.78);
+}
+
+footer {
+    border-bottom: 2px solid #e3e3e3;
+    height: 68px;
+}
