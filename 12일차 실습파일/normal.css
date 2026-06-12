@@ -1,0 +1,8 @@
+CSS
+
+/* 브라우저 기본 여백 리셋 (기본 공식) */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}

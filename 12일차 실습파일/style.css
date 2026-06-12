@@ -1,0 +1,125 @@
+.bestseller {
+    width: 100%;
+    padding: 80px;
+    background: #B4B4B4;
+}
+
+h1 {
+    color: var(--www-ssense-com-mine-shaft, var(--color-grey-20, #333));
+    font-family: Raleway;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 33.6px;
+}
+
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    /* 4개의 카드를 일정한 간격으로 나란히 배치 */
+    align-items: flex-start;
+    width: 100%;
+    /* 화면 전체 너비 활용 (필요에 따라 max-width 지정 가능) */
+    gap: 9.33px;
+}
+
+.box01 {
+    display: flex;
+    flex-direction: column;
+    /* 내부 요소는 위에서 아래로 세로 배치 */
+    flex: 1;
+    /* 🚨 가로 Fill! 4개가 화면 너비를 공평하게 나눠 가짐 */
+    background-color: #FAF4F4;
+    /* 카드 배경색 */
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.gray-box {
+    height: 433px;
+    width: 384px;
+    /* 가로·세로 비율을 맞추기 위해 너비와 동일하게 433px 지정 (조절 가능) */
+    background-color: #d9d9d9;
+    /* 피그마의 연한 회색 배경색 */
+}
+
+.product-info {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.product-meta {
+    display: flex;
+    justify-content: space-between;
+}
+
+.add-to-cart-btn {
+    display: flex;
+    height: 42px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    align-self: stretch;
+    border: 1px solid #E1DED9;
+}
+
+.common-concerns {
+    width: 100%;
+    padding: 80px;
+    background: #B4B4B4;
+}
+
+.common-concerns-container {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    align-self: stretch;
+    flex: 1;
+}
+
+p {
+    color: var(--theordinary-com-shark, var(--color-azure-15, #212529));
+    font-family: Raleway;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21px;
+    /* 150% */
+}
+
+.block-01,
+.block-02,
+.block-03,
+.block-04,
+.block-05,
+.block-06 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex: 1;
+}
+
+.white-block {
+    display: flex;
+    height: 260px;
+    align-items: flex-start;
+    align-self: stretch;
+    background: #FFF;
+
+}
+
+.category {
+    color: #000;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 18px;
+    /* 112.5% */
+    letter-spacing: -0.05px;
+    text-transform: uppercase;
+}
