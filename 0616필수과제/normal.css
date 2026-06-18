@@ -1,3 +1,18 @@
+/* 폰트적용
+기본 제공 글자 두께 400, 700
+더 많은 두께 : 두께를 가진 폰트 불러오기
+폰트 페이지에 300, 400, 500, 700만 있을겨우-100,200,600,800,900사용 x
+웹사이트 디자인 진행시 폰트 사용시 폰트 두께 종류부터 체크
+폰트마다 라이선스 다름 : 웹사이트 사용 가능 o, 로고에 사용 x 즉 폰트바다
+사용할 수 있는 범위가 다름 
+눈누폰트-css파일 작용 / 구글폰트 - html파일 head에 작용
+css-font-face / html - <link>
+폰트 저작권 잘못걸리면 벌금 내야함*/
+
+body {
+    font-family: 'pretendard', sans-serif;
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -18,9 +33,17 @@ h6 {
     margin: 0;
 }
 
+/* a태그는 기본 display가 inline이라 
+   inline: padding 패딩값을 넣었을때 좌표 고정 상태로 적용이 됨 
+   좌표 고정의 의미는 x와 y축(태그가 움직이지 않음)
+   해결방안: inline이 아닌 다른 속성값으로 변경
+   예시) inline-block, flex, inline-flex, flex-item, grid 
+   display: block;- a태그를 쓸때마다 적용할 수 없음 - 노멀라이즈 파일에 작성해야함*/
 a {
     color: inherit;
     text-decoration: none;
+    /* background-color: pink; */
+    display: block;
 }
 
 button {
